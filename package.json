@@ -1,6 +1,6 @@
 {
   "name": "my-app",
-  "version": "0.1.0",
+  "version": "0.0.0-development",
   "private": true,
   "repository": {
     "type": "git",
@@ -27,7 +27,8 @@
     "test": "react-scripts test --setupFiles ./storyBookTestSetup.js",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "semantic-release": "semantic-release"
   },
   "plugins": [
     "@semantic-release/commit-analyzer",
