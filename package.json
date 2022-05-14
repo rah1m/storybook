@@ -1,10 +1,10 @@
 {
-  "name": "my-app",
+  "name": "rahim-storybook-test",
   "version": "0.0.0-development",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/rah1m/storybook"
+    "url": "https://github.com/rah1m/storybook.git"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
