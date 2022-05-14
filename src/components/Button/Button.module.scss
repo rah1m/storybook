@@ -1,0 +1,36 @@
+@import "../../assets/style/variables";
+
+.button {
+  padding: 12px 16px;
+  border-radius: 55px;
+  border: none;
+  cursor: pointer;
+  font-size: 13px;
+  color: $pure-white;
+
+  &__primary {
+    background-color: $green-dark;
+    &:hover {
+      background-color: $green-darker;
+    }
+  }
+
+  &__dark {
+    background-color: $dark;
+    border: 1px solid $dark;
+  }
+
+  &__info {
+    background-color: $yellow-dark;
+    &:hover {
+      background-color: $yellow-darker;
+    }
+  }
+
+
+  &__outlined {
+    background-color: $pure-white;
+    color: $dark;
+    border: 1px solid $dark;
+  }
+}

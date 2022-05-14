@@ -1,0 +1,93 @@
+$dark: #282D28;
+
+/*
+For more info, check out:
+https://workstreams.getoutline.com/share/74ef442e-813f-488d-a953-fcbf1f8d117f 
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+$font-family : 'Inter', sans-serif;
+/*
+ * *** Font Sizes ****
+ */
+$font-size-xxs : 11px;
+$font-size-xs : 12px;
+$font-size-s : 13px;
+$font-size-m : 15px;
+$font-size-l : 20px;
+$font-size-xl : 25px;
+$font-size-xxl : 36px;
+$font-size-xxxl : 45px;
+/*
+ * *** Font Weights ****
+ */
+$font-weight-regular : 400;
+$font-weight-medium : 500;
+$font-weight-bold : 600;
+/*
+ * *** Spacing & Corners ****
+ */
+$grid-base : 4px;
+$space-xxs : $grid-base;
+$space-xs : $grid-base * 2;
+$space-s : $grid-base * 3;
+$space-m : $grid-base * 5;
+$space-l : $grid-base * 8;
+$space-xl : $grid-base * 15;
+$space-xxl : $grid-base * 20;
+$standard-spacing : $space-m;
+$border-radius-s : $grid-base;
+$border-radius-m : $grid-base * 2;
+$border-radius-l : $grid-base * 3;
+/*
+ * *** Shadows ****
+ */
+$shadow-tight : -1px 1px 5px rgba(159, 159, 159, 0.28);
+$shadow-regular : -4px 4px 16px rgba(159, 159, 159, 0.24);
+$shadow-loose : 0px 28px 48px -16px rgba(159, 159, 159, 0.4);
+/*
+ * *** Transitions ****
+ */
+$transition-time-quick : 250ms;
+$transition-time-regular : 500ms;
+$transition-time-long : 750ms;
+/*
+ * *** Colors ****
+ */
+/* Greyscale */
+$pure-white : #ffffff;
+$grey-lightest : #f9f9f9;
+$grey-lighter : #d7d7d7;
+$grey-light : #b2b2b2;
+$grey-regular : #9f9f9f;
+$grey-dark : #737373;
+$grey-darker : #535353;
+$grey-darkest : #3d3d3d;
+/* Greens */
+$green-lightest : #eefbf7;
+$green-lighter : #bcf1df;
+$green-light : #81e4c3;
+$green-regular : #6ed0af;
+$green-dark : #2eb88a;
+$green-darker : #218563;
+$green-darkest : #186249;
+$green-heavy-dark : #104231;
+/* Yellow */
+$yellow-lightest : #fefceb;
+$yellow-lighter : #fbee9d;
+$yellow-light : #f8e14f;
+$yellow-regular : #fbda00;
+$yellow-dark : #d1b815;
+$yellow-darker : #877607;
+$yellow-darkest : #615505;
+$yellow-heavy-dark : #3a3303;
+/* Pink */
+$pink-lightest : #FCEDF0;
+$pink-lighter : #F7CAD3;
+$pink-light : #F19DAE;
+$pink-regular : #eb8398;
+$pink-dark : #d77588;
+$pink-darker : #ad5e6e;
+$pink-darkest : #7a3e4a;
+$pink-heavy-dark : #512931;
