@@ -1,4 +1,4 @@
-import { FC, ReactNode } from "react";
+import { FC, ButtonHTMLAttributes, ReactNode } from "react";
 import cn from "classnames";
 
 import buttonStyles from './Button.module.scss'
@@ -6,14 +6,13 @@ import buttonStyles from './Button.module.scss'
 
 type ButtonColor = "primary" | "secondary" | "danger" | "success" | "warning" | "info" | "light" | "dark";
 
-interface Props {
-  onClick?: () => void;
+export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   children: ReactNode;
   color?: ButtonColor
   outlined?: boolean;
 }
-const Button: FC<Props> = ({ onClick, children, color = "primary", outlined = false }) => {
-  return <button className={cn(buttonStyles.button, {
+const Button: FC<ButtonProps> = ({ onClick, children, color = "primary", outlined = false, ...props }) => {
+  return <button {...props} className={cn(buttonStyles.button, {
     [buttonStyles.button__primary]: color === "primary" && !outlined,
     [buttonStyles.button__secondary]: color === "secondary" && !outlined,
     [buttonStyles.button__danger]: color === "danger" && !outlined,
@@ -23,7 +22,7 @@ const Button: FC<Props> = ({ onClick, children, color = "primary", outlined = fa
     [buttonStyles.button__light]: color === "light" && !outlined,
     [buttonStyles.button__dark]: color === "dark" && !outlined,
     [buttonStyles.button__outlined]: outlined
-  })} onClick={onClick}>{children}</button>;
+  })}>{children}</button>;
 };
 
 export default Button;
