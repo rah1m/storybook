@@ -24,24 +24,15 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 Builds the app for publish to the `dist` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
+<h1 align="center" style="border-bottom: none;">📦🚀 semantic-release</h1>
+<h3 align="center">Fully automated version management and package publishing</h3>
+
+
 **semantic-release** automates the whole package release workflow including: determining the next version number, generating the release notes, and publishing the package.
 
 This removes the immediate connection between human emotions and version numbers, strictly following the [Semantic Versioning](http://semver.org) specification and communicating the **impact** of changes to consumers.
 
 > Trust us, this will change your workflow for the better. – [egghead.io](https://egghead.io/lessons/javascript-how-to-write-a-javascript-library-automating-releases-with-semantic-release)
-
-## Highlights
-
-- Fully automated release
-- Enforce [Semantic Versioning](https://semver.org) specification
-- New features and fixes are immediately available to users
-- Notify maintainers and users of new releases
-- Use formalized commit message convention to document changes in the codebase
-- Publish on different distribution channels (such as [npm dist-tags](https://docs.npmjs.com/cli/dist-tag)) based on git merges
-- Integrate with your [continuous integration workflow](docs/recipes/release-workflow/README.md#ci-configurations)
-- Avoid potential errors associated with manual releases
-- Support any [package managers and languages](docs/recipes/release-workflow/README.md#package-managers-and-languages) via [plugins](docs/usage/plugins.md)
-- Simple and reusable configuration via [shareable configurations](docs/usage/shareable-configurations.md)
 
 ## How does it work?
 
