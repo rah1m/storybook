@@ -21,10 +21,8 @@
     "react-dom": "^18.1.0"
   },
   "scripts": {
-    "start": "react-scripts start",
     "build": "rollup -c",
     "test": "react-scripts test --setupFiles ./storyBookTestSetup.js",
-    "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
     "semantic-release": "semantic-release",
@@ -107,5 +105,6 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
-  }
+  },
+  "homepage": "https://storybook-azakr7lb1-rah1m.vercel.app/"
 }
