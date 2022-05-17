@@ -20,6 +20,12 @@
     border: 1px solid $dark;
   }
 
+  &__link {
+    text-decoration: underline;
+    color: $dark;
+    background-color: transparent;
+  }
+
   &__info {
     background-color: $yellow-dark;
     &:hover {

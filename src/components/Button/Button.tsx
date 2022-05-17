@@ -11,7 +11,8 @@ type ButtonColor =
   | "warning"
   | "info"
   | "light"
-  | "dark";
+  | "dark"
+  | "link";
 
 export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   children: ReactNode;
@@ -37,6 +38,7 @@ const Button: FC<ButtonProps> = ({
         [buttonStyles.button__info]: color === "info" && !outlined,
         [buttonStyles.button__light]: color === "light" && !outlined,
         [buttonStyles.button__dark]: color === "dark" && !outlined,
+        [buttonStyles.button__link]: color === "link" && !outlined,
         [buttonStyles.button__outlined]: outlined,
       })}
     >
