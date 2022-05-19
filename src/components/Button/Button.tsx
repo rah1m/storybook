@@ -12,7 +12,8 @@ type ButtonColor =
   | "info"
   | "light"
   | "dark"
-  | "link";
+  | "link"
+  | "thirdone";
 
 export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   children: ReactNode;
